@@ -8,7 +8,7 @@ import talib as tal
 import Load_data
 import Backtest
 
-CSV_PATH='BTCUSDT_1hour_january_2021.csv'
+CSV_PATH='Main/BTCUSDT_1hour_january_2021.csv'
 df = Load_data.data_from_csv_file(CSV_PATH)
 total_result=[]
 for jours_petit in range(150,250,1):

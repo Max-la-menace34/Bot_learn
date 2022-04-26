@@ -31,7 +31,7 @@ def load_data_function():
     return df
 
 def data_to_csv_file(df):
-    CSV_PATH='BTCUSDT_1hour_january_2021.csv'
+    CSV_PATH='Main/BTCUSDT_1hour_january_2021.csv'
     df.to_csv(CSV_PATH,index=True,sep=';',header=True)
     return 'Done'
 

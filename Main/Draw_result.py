@@ -38,6 +38,9 @@ def affihcer_buy_and_sell_Backtest(csv_path,list_backtest):
             print("Error to print a line")   
     return fig.show()
 
+
+
+
     
 
 
