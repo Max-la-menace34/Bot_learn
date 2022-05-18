@@ -28,7 +28,7 @@ df.index =pd.to_datetime(df.index, unit='ms')
 del df['timestamp']
 """
 
-CSV_PATH='BTCUSDT_1hour_january_2021.csv'
+CSV_PATH='Data/BTCUSDT_1day_january_2020.csv'
 df = Load_data.data_from_csv_file(CSV_PATH)
 #Création de la première stratégie
 
